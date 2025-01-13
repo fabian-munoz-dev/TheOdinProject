@@ -4,33 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
-    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
 </head>
 <body>
-    <nav></nav>
-    <header>
-        <img src="" alt="Header logo">
-        <a href="/">Header Link 1</a>
-        <a href="/">Header Link 2</a>
-        <a href="/">Header Link 3</a>
-    </header>
-    <section class="hero">
+    <nav class="dark">
+        <p class="logo">Header Logo</p>
+        <div class="nav__container">
+            <a href="/">Header Link 1</a>
+            <a href="/">Header Link 2</a>
+            <a href="/">Header Link 3</a>
+        </div>
+    </nav>
+    <section class="hero dark">
         <div class="hero__left">
-            <p class="main">Hero main text</p>
+            <p class="main">Hero main text is placed here</p>
             <p class="secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas blandit metus at purus hendrerit gravida. Vestibulum vitae quam iaculis tellus facilisis convallis.</p>
-            <div class="button">
-                <a href="/">Sign up</a>
-            </div>
+            <div class="button">Sign up</div>
         </div>
         <div class="hero__right">
-            <img src="" alt="Hero image">
+            <img src="https://images.pexels.com/photos/230976/pexels-photo-230976.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hero image">
         </div>
     </section>
     <section class="pods">
-        <p class="title"></p>
+        <p class="title">Some random information.</p>
         <div class="pods__container">
             <div class="pod">
-                <img src="" alt="Pod image">
+                <img src="https://images.pexels.com/photos/15632276/pexels-photo-15632276/free-photo-of-close-up-of-a-nike-trainer.jpeg" alt="Pod image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="pod">
+                <img src="https://images.pexels.com/photos/15632276/pexels-photo-15632276/free-photo-of-close-up-of-a-nike-trainer.jpeg" alt="Pod image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="pod">
+                <img src="https://images.pexels.com/photos/15632276/pexels-photo-15632276/free-photo-of-close-up-of-a-nike-trainer.jpeg" alt="Pod image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="pod">
+                <img src="https://images.pexels.com/photos/15632276/pexels-photo-15632276/free-photo-of-close-up-of-a-nike-trainer.jpeg" alt="Pod image">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
         </div>
@@ -48,7 +62,7 @@
             <div class="button">Sign up</div>
         </div>
     </section>
-    <footer>
+    <footer class="dark">
         <p>Copyright The Odin Project 2025</p>
     </footer>
 </body>
