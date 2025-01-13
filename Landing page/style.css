@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", serif;
+    font-size: 18px;
+}
+.dark{
+    background: #1F2937;
+    color: #F9FAF8;
+}
+nav, section.hero{
+    padding:0 200px;
+}
+.button{
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding: 10px 30px;
+    max-width: 60px;
+}
+/* Nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+nav .logo{
+    font-size: 24px;
+    font-weight: 500;
+}
+nav .nav__container{
+    display: flex;
+    gap: 20px;
+}
+nav .nav__container a{
+    color: #E5E7EB;
+    text-decoration: none;
+}
+/* Hero */
+section.hero{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+section.hero .hero__left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+section.hero .hero__left .main{
+    font-size: 48px;
+    font-weight: 900;
+}
+section.hero .hero__left .secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+section.hero .hero__right img{
+    width: 100%;
+}
+/* Pods */
+section.pods{
+    padding:40px 200px;
+}
+section.pods .title{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+section.pods .pods__container{
+    display: flex;
+    gap: 40px;
+}
+section.pods .pods__container .pod{
+    display: flex;
+    flex-direction: column;
+}
+section.pods .pods__container .pod img{
+    border: #3882F6 solid 4px;
+    border-radius: 6px;
+    width: 100%;
+}
