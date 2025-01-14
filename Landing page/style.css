@@ -64,13 +64,14 @@ section.hero .hero__right img{
 }
 /* Pods */
 section.pods{
-    padding:40px 200px;
+    padding:40px 250px;
 }
 section.pods .title{
     font-size: 36px;
     color:#1F2937;
     font-weight: 900;
     text-align: center;
+    margin-bottom: 40px;
 }
 section.pods .pods__container{
     display: flex;
@@ -84,4 +85,45 @@ section.pods .pods__container .pod img{
     border: #3882F6 solid 4px;
     border-radius: 6px;
     width: 100%;
+}
+section.pods .pods__container .pod p{
+    padding: 10px;
+    text-align: center;
+}
+/* Quote */
+section.quote{
+    background-color: #E5E7EB;
+    padding:100px 250px;
+}
+section.quote .main{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+section.quote .author{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+/* Call */
+section.call{
+    padding: 100px 200px;
+}
+section.call .container{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+section.call .container .button{
+    border: #F9FAF8 solid 2px;
+}
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 40px 0;
 }
